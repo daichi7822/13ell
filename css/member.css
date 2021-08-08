@@ -1,0 +1,129 @@
+@import "reset.css";
+
+html{
+    font-size:100%;
+}
+
+body{
+    color:#24292e;
+    animation: fadeIn 3s ease 0s 1 normal;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+@keyframes fadeIn { 
+
+  0% {opacity: 0} 
+
+  100% {opacity: 1} 
+
+}
+
+header img{
+    width: 6%;
+    height: auto;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+}
+
+.members{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px auto 100px auto;
+    max-width: 950px;
+}
+
+.member{
+    width: 90%;
+    max-width: 28%;
+    margin: 0 auto;
+}
+
+.pear{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.name{
+    font-size: 20px;
+    font-family:serif,'ＭＳ 明朝';
+}
+
+.insta{
+    box-sizing: inherit;
+    font-size: 20px;
+}
+
+.e-name{
+    font-size: 15px;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 12px;
+    opacity: 0.5;
+    margin-bottom: 10px;
+}
+
+#first{
+    margin-top: 120px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+@media screen and (max-width:720px){
+
+    .members{
+        display: block;
+        width: 60%;
+        margin: 80px 20% 30px 20%;
+    }
+
+    .pear{
+        box-sizing: inherit;
+        width: 80%;
+        margin: 0 10% 10px 10%;
+    }
+
+    .e-name{
+        box-sizing: inherit;
+        width: 80%;
+        margin: 0 10% 10px 10%;
+    }
+
+    p{
+        box-sizing: inherit;
+        width: 80%;
+        margin: 0 10% 10px 10%;
+    }
+
+    img{
+        width: 100%;
+        height: auto;
+        box-sizing: inherit;
+    }
+
+    .member{
+        margin-top:100px;
+        margin-bottom: 90px;
+        max-width: 100%;
+    }
+
+    header img{
+        width: 10%;
+    }
+}

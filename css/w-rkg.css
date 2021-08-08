@@ -1,0 +1,114 @@
+@import "reset.css";
+
+html{
+    font-size:100%;
+}
+
+body{
+    color:#24292e;
+    animation: fadeIn 3s ease 0s 1 normal;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper a:hover{
+    opacity: 0.35;
+}
+
+
+@keyframes fadeIn { 
+
+  0% {opacity: 0} 
+
+  100% {opacity: 1} 
+  
+}
+
+header img{
+    width: 6%;
+    height: auto;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+}
+
+.wrapper{
+    width: 50%;
+    margin: 0 25%;
+    text-align: center;
+}
+
+.top{
+    padding-top: 115px;
+    padding-bottom: 115px;
+}
+
+#title{
+    padding-bottom: 20px;
+    font-size: 24px;
+}
+
+mainvisual img{
+    width: 100%;
+    max-width:1920px;
+    height: auto;
+    object-fit: cover;
+}
+
+.data{
+    margin-top: 160px;
+    margin-bottom: 80px;
+}
+
+.data p{
+    padding-bottom: 20px;
+    opacity: 0.8;
+}
+
+#text{
+    width: 70%;
+    margin: 0 15%;
+    text-align: center;
+}
+
+.photo{
+    width: 80%;
+    margin: 0 10%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 120px;
+}
+
+.photo img{
+    width: 33%;
+}
+
+@media screen and (max-width:740px) {
+
+    header img{
+        width: 10%;
+        height: auto;
+        position: fixed;
+        top: 32px;
+        left: 20px;
+        z-index: 10;
+    }    
+
+    .data{
+        margin-top: 70px;
+        margin-bottom: 64px;
+    }
+
+    .photo{
+        width: 90%;
+        margin: 0 5%;
+    }
+
+}
+
+
+

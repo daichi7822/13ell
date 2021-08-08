@@ -1,0 +1,71 @@
+@import "reset.css";
+
+html{
+    font-size:100%;
+}
+
+body{
+    color:#24292e;
+    animation: fadeIn 3s ease 0s 1 normal;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+@keyframes fadeIn { 
+
+  0% {opacity: 0} 
+
+  100% {opacity: 1} 
+
+}
+
+header img{
+    width: 6%;
+    height: auto;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+}
+
+.image{
+    width: 80%;
+    margin: 90px 10%;
+}
+
+img{
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.after{
+    margin-top: 90px;
+}
+
+@media screen and (max-width:740px) {
+
+    header img{
+        width: 10%;
+        height: auto;
+        position: fixed;
+        top: 32px;
+        left: 20px;
+        z-index: 10;
+    }    
+
+
+
+    .before{
+        margin-top: 30px;
+        margin-bottom: 80px;
+    }
+    .after{
+        margin-top: 0px;
+    }
+
+}
