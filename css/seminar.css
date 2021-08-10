@@ -74,5 +74,27 @@ h1{
         z-index: 10;
     }
 
-    
+    #top .text{
+        order: 1;
+    }
+
+    #top .img{
+        order: 2;
+    }
+
+    .wrapper{
+        flex-direction: column;
+        width: 70%;
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+
+    .img{
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    #top{
+        margin-top: 80px;
+    }
 }
