@@ -7,6 +7,7 @@ html{
 body{
     color:#24292e;
     animation: fadeIn 3s ease 0s 1 normal;
+    font-family: 'Noto Serif JP', serif;
 }
 
 a{
@@ -54,13 +55,23 @@ header img{
     background-color:rgba(131, 131, 131, 0.2);
 }
 
+.number{
+    font-size: 18.5px;
+    padding-top:40px;
+    opacity: 0.8;
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .content-title{
     width: 100%;
     max-width: 760px;
-    margin: 0px auto;
-    padding-top:20px;
+    margin: 8.5px auto 0 auto;
     margin-bottom: 20px;
     text-align: center;
+    font-size: 25px;
 }
 
 p{

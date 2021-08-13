@@ -7,6 +7,7 @@ html{
 body{
     color:#24292e;
     animation: fadeIn 3s ease 0s 1 normal;
+    font-family: 'Noto Serif JP', serif;
 }
 
 a{

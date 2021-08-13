@@ -7,6 +7,7 @@ html{
 body{
     color:#24292e;
     animation: fadeIn 3s ease 0s 1 normal;
+    font-family: 'Noto Serif JP', serif;
 }
 
 a{
@@ -55,12 +56,19 @@ p{
 
 .text{
     text-align: center;
+    margin-top: 80px;
+}
+
+h2{
+    font-size: 15px;
+    opacity: 0.7;
+    margin-bottom: 50px;
+    margin-top: 5px;
 }
 
 h1{
     margin-top: 25px;
-    margin-bottom: 50px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 @media screen and (max-width:880px) {
