@@ -43,13 +43,25 @@ header img{
 }
 
 .top{
-    padding-top: 115px;
+    padding-top: 60px;
     padding-bottom: 115px;
+}
+
+#number{
+    padding-bottom: 20px;
+    opacity: 0.7;
 }
 
 #title{
     padding-bottom: 20px;
     font-size: 24px;
+}
+
+mainvisual p{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 17px;
+    opacity: 0.8;
 }
 
 mainvisual img{
@@ -70,15 +82,22 @@ mainvisual img{
     opacity: 0.8;
 }
 
-#date{
-    margin-top: 50px;
-}
-
 #text{
     width: 70%;
     margin: 0 15%;
     text-align: center;
     line-height: 25px;
+}
+
+#place{
+    margin-top: 30px;
+    line-height: 25px;
+    margin-bottom: 100px;
+}
+
+#gallery{
+    font-size: 34px;
+    opacity: 1;
 }
 
 .photo{
@@ -111,7 +130,7 @@ mainvisual img{
 
     .photo{
         width: 90%;
-        margin: 0 5%;
+        margin: auto 5% 70px 5%;
     }
 
 }
