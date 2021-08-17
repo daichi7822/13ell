@@ -71,7 +71,7 @@ header img{
 .e-name{
     font-size: 15px;
     opacity: 0.7;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 
 p{
@@ -86,7 +86,8 @@ p{
 }
 
 .comment{
-    margin-top: 14px; 
+    height: 100px;
+    margin-top: 25px; 
     margin-bottom: 14px; 
     line-height: 18px;
 }
@@ -100,9 +101,6 @@ img{
     height: auto;
 }
 
-#rui{
-    margin-top: 33px;
-}
 
 
 @media screen and (max-width:720px){
