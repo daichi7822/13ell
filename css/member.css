@@ -100,7 +100,9 @@ img{
     height: auto;
 }
 
-
+#rui{
+    margin-top: 33px;
+}
 
 
 @media screen and (max-width:720px){
