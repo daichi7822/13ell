@@ -64,11 +64,6 @@ a{
   font-size: 160%;
 }
 
-/* #sns a:hover{
-  opacity: 0.5;
-  transition: 0.7s;
-  font-size: 20px;
-} */
 
 #sns{
   display: flex;
