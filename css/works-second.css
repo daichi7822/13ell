@@ -131,6 +131,28 @@ mainvisual img{
     box-shadow: 4px 4px 15px rgb(83, 80, 80);
   }
 
+  .btnn {
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    border: 1px solid black;
+    font-weight: 600;
+    padding:5px 15px;
+    margin: 10px auto;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: black;
+    text-decoration: none !important;
+    font-size: 10px;
+    margin-top: 13px;
+  }
+
+  .btnn:hover{
+    color:white;
+    background-color: black;
+    box-shadow: 4px 4px 15px rgb(83, 80, 80);
+  }
+
 @media screen and (max-width:740px) {
 
     header img{
