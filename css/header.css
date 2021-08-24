@@ -20,3 +20,35 @@
 .head-border:after {
     margin-left: 1rem;
 }
+
+
+
+
+
+
+/* .head-border {
+    position: relative;
+    display: inline-block;
+    padding: 0 55px;
+    font-size: 35px;
+    margin: 100px auto;
+}
+
+.head-border:before,
+.head-border:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 50px;
+    height: 5px;
+    background-color: #666;
+}
+
+.head-border:before {
+    left: 0;
+}
+
+.head-border:after {
+    right: 0;
+} */
