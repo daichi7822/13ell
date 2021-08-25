@@ -36,6 +36,7 @@ a{
 
 .works{
     width: 100%;
+    margin-bottom: 100px;
 }
 
 .site-title-works{
@@ -49,7 +50,8 @@ a{
 
 .content{
     width: 100%;
-    /* margin-top:40px; */
+    margin-top:40px;
+    padding-top: 10px;
 }
 
 .content:hover{

@@ -9,6 +9,7 @@ body{
     animation: fadeIn 3s ease 0s 1 normal;
     justify-content: center;
     align-items: center;
+    font-family: 'Noto Serif JP', serif;
 }
 
 @keyframes fadeIn { 
@@ -19,6 +20,11 @@ body{
 
 }
 
+
+consept{
+    display: flex;
+    margin-bottom: 100px;
+}
 
 .wrapper{
     text-align: center;

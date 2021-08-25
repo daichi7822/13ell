@@ -1,18 +1,19 @@
 header{
-    display: flex;
-    align-items: center;
-    margin: 30px 15%;
-    justify-content: space-between;
+    margin: 100px 15% 150px 15%;
+    text-align: center;
 }
 
-consept{
-    display: flex;
+header p{
+    font-size: 30px;
+    margin: 50px auto;
+    color: black;
 }
 
-header img{
-    width: 20%;
-    height: auto;
+.sixtag{
+    margin-top: 70px;
+
 }
+
 
 .sixtag a{
     text-decoration: none;
