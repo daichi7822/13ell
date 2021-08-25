@@ -1,6 +1,8 @@
 header{
+    font-size: 100%;
     margin: 100px 15% 150px 15%;
     text-align: center;
+    /* width: 100%; */
 }
 
 header p{
@@ -11,7 +13,6 @@ header p{
 
 .sixtag{
     margin-top: 70px;
-
 }
 
 
@@ -28,44 +29,58 @@ header p{
 
 #home{
     border-right: 1px solid black;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 50px;
 }
 
 #consept{
     border-right: 1px solid black;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 50px;
 }
 
 #works{
     border-right: 1px solid black;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 50px;
 }
 
 #seminar{
     border-right: 1px solid black;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 50px;
 }
 
 #member{
     border-right: 1px solid black;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 50px;
+    
 }
 
 #contact{
-    padding-left: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 50px;
 }
 
+
+@media (min-width:419px) and (max-width:568px) {
+    #works{
+        border-right: none;
+    }
+}
+
+@media screen and (max-width:418px){
+    #works{
+        border-right: 1px solid black;
+    }
+    #contact{
+        border-right: 1px solid black;
+    }
+}
