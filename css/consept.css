@@ -7,7 +7,6 @@ html{
 body{
     color:#24292e;
     animation: fadeIn 3s ease 0s 1 normal;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -20,28 +19,16 @@ body{
 
 }
 
-consept{
-    display: flex;
-}
-
-header img{
-    width: 6%;
-    height: auto;
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    z-index: 10;
-}
 
 .wrapper{
     text-align: center;
     width: 100%;
-    margin: 8% 3% 5% 3%;
+    margin: 0 3% 0 3%;
 }
 
 img{
     width: 37%;
-    margin-bottom: 40px;
+    margin-bottom: 55px;
 }
 
 h1{

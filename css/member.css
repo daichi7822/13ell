@@ -41,6 +41,10 @@ header img{
     max-width: 950px;
 }
 
+#first{
+    margin-top: 0px;
+}
+
 .member{
     width: 90%;
     max-width: 28%;
@@ -92,9 +96,7 @@ p{
     line-height: 18px;
 }
 
-#first{
-    margin-top: 120px;
-}
+
 
 img{
     width: 100%;

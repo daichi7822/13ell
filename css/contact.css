@@ -26,10 +26,6 @@ a{
 header img{
     width: 6%;
     height: auto;
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    z-index: 10;
 }
 
 .wrapper{
@@ -45,37 +41,37 @@ header img{
     margin-bottom: 65px;
 }
 
-#contact dl{
+#contact_2 dl{
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 20px;
 }
 
-#contact dt{
+#contact_2 dt{
     width: 15%;
 }
 
-#contact dd{
+#contact_2 dd{
     width: 85%;
     margin-bottom: 10px;
 }
 
-#contact dd input,
-#contact dd textarea{
+#contact_2 dd input,
+#contact_2 dd textarea{
     width: 100%;
     border:solid 1px #c8c8c8;
     padding:10px;
 }
 
-#contact dd textarea{
+#contact_2 dd textarea{
     height: 10rem;
 }
 
-#contact .button{
+#contact_2 .button{
     text-align: center;
 }
 
-#contact .button input{
+#contact_2 .button input{
     width: 200px;
     background-color: #24292e;
     color: #fff;
@@ -83,7 +79,7 @@ header img{
     border: solid 1px #24292e;
 }
 
-#contact .button input:hover{
+#contact_2 .button input:hover{
     background-color: #fff;
     color: #24292e;
 }
@@ -107,13 +103,13 @@ header img{
         margin-bottom: 40px;
     }
 
-    #contact dl{
+    #contact_2 dl{
         flex-direction: column;
     }
-    #contact dt{
+    #contact_2 dt{
         width: 100%;
     }
-    #contact dd{
+    #contact_2 dd{
         width: 100%;
     }
     

@@ -1,54 +1,70 @@
-.head-border {
+header{
     display: flex;
     align-items: center;
-    font-size: 35px;
-    margin: 100px auto;
+    margin: 30px 15%;
+    justify-content: space-between;
 }
 
-.head-border:before,
-.head-border:after {
-    content: "";
-    height: 1px;
-    flex-grow: 1;
-    background-color: #666;
+consept{
+    display: flex;
 }
 
-.head-border:before {
-    margin-right: 1rem;
+header img{
+    width: 20%;
+    height: auto;
 }
 
-.head-border:after {
-    margin-left: 1rem;
+.sixtag a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: 300;
 }
 
-
-
-
-
-
-/* .head-border {
-    position: relative;
-    display: inline-block;
-    padding: 0 55px;
-    font-size: 35px;
-    margin: 100px auto;
+.sixtag a:hover{
+    opacity: 0.7;
 }
 
-.head-border:before,
-.head-border:after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    display: inline-block;
-    width: 50px;
-    height: 5px;
-    background-color: #666;
+#home{
+    border-right: 1px solid black;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.head-border:before {
-    left: 0;
+#consept{
+    border-right: 1px solid black;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
 }
 
-.head-border:after {
-    right: 0;
-} */
+#works{
+    border-right: 1px solid black;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+#seminar{
+    border-right: 1px solid black;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+#member{
+    border-right: 1px solid black;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+#contact{
+    padding-left: 20px;
+}
+

@@ -5,8 +5,6 @@ html{
 }
 
 body{
-    width: 80%;
-    margin: auto 10%;
     color:#24292e;
     animation: fadeIn 3s ease 0s 1 normal;
     font-family: 'Noto Serif JP', serif;
@@ -26,17 +24,11 @@ a{
 
 }
 
-header img{
-    width: 6%;
-    height: auto;
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    z-index: 10;
-}
 
 .wrapper{
     display: flex;
+    width: 80%;
+    margin: auto 10%;
 }
 
 p{
@@ -44,9 +36,6 @@ p{
     opacity: 0.88;
 }
 
-#top{
-    margin-top: 120px;
-}
 
 #bottom{
     margin-top: 60px;
