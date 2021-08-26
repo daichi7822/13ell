@@ -12,6 +12,33 @@
     <link rel="stylesheet" href="../css/header.css">
     <title>建築学生事務所13ell</title>
 </head>
+<header_humb>
+    <div class="header-logo-menu">
+    <div id="nav-drawer">
+        <input id="nav-input" type="checkbox" class="nav-unshown">
+        <label id="nav-open" for="nav-input"><span></span></label>
+        <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+        <div id="nav-content">
+            <ul>
+                <li><a href="../html/home.html">HOME</a></li>
+                <li><a href="../html/consept.html">CONSEPT</a></li>
+                <li><a href="../html/works.html">WORKS</a></li>
+                <li><a href="../html/seminar.html">SEMINAR</a></li>
+                <li><a href="../html/member.html">MEMBER</a></li>
+                <li><a href="../html/contact.html">CONTACT</a></li>
+              </ul>
+        </div>
+        <script>
+            $(function() {
+              $('#nav-content li a').on('click', function(event) {
+                $('#nav-input').prop('checked', false);
+              });
+            });
+            </script>
+    </div>
+    <!-- <div class="logo-area">LOGO</div> -->
+    </div>
+  </header_humb>
 
 <body>
     <header>
