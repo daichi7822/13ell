@@ -71,7 +71,7 @@ h1{
     font-size: 25px;
 }
 
-@media screen and (max-width:880px) {
+@media screen and (max-width:1050px) {
 
     header img{
         width: 10%;
