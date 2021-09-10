@@ -76,13 +76,25 @@ p{
     }
 
     .wrapper{
-        width: 70%;
-        margin-right: 15%;
-        margin-left: 15%;
+        width: 100%;
+        margin:0;
+    }
+
+    .text{
+        width: 100%;
     }
 
 
     #top{
         margin-top: 80px;
+    }
+
+    .img{
+        width: 80%;
+        margin: auto 10%;
+    }
+
+    #bottom{
+        margin-bottom:70px;
     }
 }
