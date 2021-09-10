@@ -14,23 +14,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
     <title>建築学生事務所13ell</title>
 </head>
 
 <body>
-
-    <header>
-        <div class="sixtag">
-            <a href="../html/home.html" id="home">HOME</a>
-            <a href="../html/consept.html" id="consept">CONSEPT</a>
-            <a href="../html/works.html" id="works">WORKS</a>
-            <a href="../html/seminar.html" id="seminar">SEMINAR</a>
-            <a href="../html/member.html" id="member">MEMBER</a>
-            <a href="../html/contact.html" id="contact">CONTACT</a>
-        </div>
-    </header>
 
 
     <div class="top">
@@ -98,9 +86,40 @@
     </div>
 
     <footer>
-        <div class="btn_footer left"><a href="">東京ビックサイト展示会</a></div>
-        <div class="btn_footer right"><a href="">熱海リノベーション</a></div>
+        <div class="sixtag">
+            <a href="../html/home.html" id="home">HOME</a>
+            <a href="../html/w-reception.html" id="first">東京ビックサイト展示会</a>
+            <a href="../html/w-nakano.html" id="second">中野旅館改装</a>
+            <a href="../html/w-atami.html" id="third">熱海リノベーション</a>
+            <a href="../html/w-tottori.html" id="final">鳥取プロジェクト</a>
+        </div>
     </footer>
+    <footer_humb>
+        <div class="footer-logo-menu">
+        <div id="nav-drawer">
+            <input id="nav-input" type="checkbox" class="nav-unshown">
+            <label id="nav-open" for="nav-input"><span></span></label>
+            <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+            <div id="nav-content">
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="../html/w-reception.html">東京ビックサイト展示会</a></li>
+                    <li><a href="../html/w-nakano.html">中野旅館改装</a></li>
+                    <li><a href="../html/w-atami.html">熱海リノベーション</a></li>
+                    <li><a href="../html/w-tottori.html">鳥取プロジェクト</a></li>
+                </ul>
+            </div>
+            <script>
+                $(function() {
+                  $('#nav-content li a').on('click', function(event) {
+                    $('#nav-input').prop('checked', false);
+                  });
+                });
+                </script>
+        </div>
+        <!-- <div class="logo-area">LOGO</div> -->
+        </div>
+      </footer_humb>
 
 </body>
 

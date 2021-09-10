@@ -74,7 +74,7 @@ header p{
 
 /* ハンバーガーメニュー */
 
-a{
+header_humb a{
     text-decoration: none;
     color: black;
 }
